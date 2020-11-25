@@ -6,7 +6,7 @@ const initialState={
             "age" : "11",
             "gender":"male",
             "email" : "test1@gmail.com",
-            "phoneNo" : "9415346313"
+            "phoneNo" : "9415346313",
         },
         {
             "id" : 2,
