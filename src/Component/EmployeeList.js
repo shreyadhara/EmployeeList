@@ -33,8 +33,7 @@ class EmployeeList extends React.Component{
                     </tr>
                     {data}
                 </table>
-                  
-            </div>
+           </div>
         )
     }
 }
