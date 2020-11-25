@@ -1,6 +1,6 @@
 const initialState={
     username:"hruday@gmail.com",
-    password :'hruday123'
+    password :'hruday123',
 }
 
 function LoginReducer(state=initialState,action){
