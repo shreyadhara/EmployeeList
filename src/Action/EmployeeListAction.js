@@ -1,6 +1,6 @@
 
 export const EmployeeListAction=()=>{
-    return {
+    return{
         type:'GET_DATA'
     }
 }
