@@ -1,5 +1,5 @@
 export const LoginAction=()=>{
     return{
-        type:'LOGIN',
+        type:'LOGIN'
     }
 }
