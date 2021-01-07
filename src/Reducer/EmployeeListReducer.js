@@ -46,7 +46,7 @@ const initialState={
         "age" : "16",
         "gender":"male",
         "email" : "test6@gmail.com",
-        "phoneNo" : "9415346318"
+        "phoneNo" : "9415346318",
          }
      ]
 }
