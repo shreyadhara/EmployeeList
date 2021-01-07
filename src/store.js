@@ -5,7 +5,7 @@ import thunk from 'redux-thunk';
 
 const rootReducer=combineReducers({
   emp:EmployeeListReducer,
-  login:LoginReducer
+  login:LoginReducer,
 })
 
 const store=createStore(rootReducer,applyMiddleware(thunk));
