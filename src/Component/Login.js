@@ -56,7 +56,7 @@ class Login extends React.Component{
 function mapStateToProps(state){
     return{
         name:state.login.username,
-        pass:state.login.pass,
+        pass:state.login.pass
     }
 }
 export default connect(mapStateToProps,{LoginAction})(Login);
