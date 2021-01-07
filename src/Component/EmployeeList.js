@@ -39,7 +39,7 @@ class EmployeeList extends React.Component{
 }
 function mapStateToProps(state){
     return{
-        userList:state.emp.user
+        userList:state.emp.user,
     };
 }
 export default connect(mapStateToProps,{EmployeeListAction})(EmployeeList);
