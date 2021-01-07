@@ -7,7 +7,7 @@ function LoginReducer(state=initialState,action){
     switch(action.type){
         case 'LOGIN':
             return{
-                ...state
+                ...state,
             }
             default:
                 return state
